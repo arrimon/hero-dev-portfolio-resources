@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Styling */
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* header Section */
+header {
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+/* start nav section */
+nav {
+    width: 71%;
+    min-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.color-orange {
+    color: #FF7A00;
+}
+
+nav .menu{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    align-items: center;
+}
+/* nav .menu li {
+    list-style: none;
+} */
+nav .menu a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.btn {
+    background-color: #FF7A00;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
