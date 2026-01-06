@@ -10,10 +10,65 @@
     font-optical-sizing: auto;
 }
 
+.btn {
+    background-color: #FF7A00;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-contact {
+    color: #FF7A00;
+    border: 1px solid #FF7A00;
+    background-color: #FFF8F3;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+.btn-contact i {
+    margin-right: 10px;
+}
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    min-width: 827px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 20px;
+    color: #474747;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about, .skill, .resume {
+    padding: 130px 230px;
+    margin: 0 auto;
+}
+
+
+/* End Common Section */
+
 /* header Section */
 header {
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -51,16 +106,6 @@ nav .menu a {
     transition: color 0.3s ease;
 }
 
-.btn {
-    background-color: #FF7A00;
-    border: none;
-    padding: 18px 35px;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-}
 
 /* Banner Section */
 #banner {
@@ -97,3 +142,187 @@ nav .menu a {
     width: 585px;
     vertical-align: middle;
 }
+
+/* About Section */
+.about-content {
+    width: 71%;
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 140px 140px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-info {
+    max-width: 827px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.info-card p {
+    text-align: center;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-card h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}   
+
+
+/* Skill Section Start */
+.skill-content {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.skill-box {
+    max-width: 1140px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skill-card {
+    border-radius: 5px;
+    width: 267px;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.skill-box img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-box h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-box p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* Resume Section */
+/* .resume {
+    padding: 130px 230px;
+} */
+.resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.education, .experience {
+    /* padding: 30px; */
+}
+
+.section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+    margin-bottom: 30px;
+}
+.resume-container hr {
+    margin: 30px 24px 30px 0px;
+    max-width: 558px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.section-heading .btn {
+    margin-top: 50px;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-conteiner {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+    /* justify-content: space-between; */
+    
+}
+.social {
+    width: 562px;
+}
+
+.social h2, .form h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.social p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.icons {
+  display: flex;
+}
+
+.icons a {
+  margin-right: 24px;
+}
+
+.icons img {
+  max-width: 24px;
+}
+
+
+/* Form */
+.form form input[type="text"], [type="email"], textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+
+    color: #757575;
+}
+
+
+
+
